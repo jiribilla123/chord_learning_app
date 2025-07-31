@@ -109,13 +109,13 @@ st.markdown("Thanks for visiting 😀 I'm working on further updates including m
 st.divider()
 col1, col2, col3 = st.columns(3)
 
-with col3:
+with col1:
     st.text("Contact:")
 
 with col2:
     st.text("📧 jaaime35@gmail.com")
 
-with col2:
+with col3:
     st.page_link("https://www.linkedin.com/in/jaimevillalobos1603/",
                 label="🙋🏽‍♂️Linkedin Profile")
 
