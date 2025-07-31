@@ -35,8 +35,8 @@ def spell_chord(root_letter, root_accidental, chord_type):
         target_semitone = (root_semitone + interval) % 12
         letter_index = (root_letter_index + i * 2) % 7
         expected_letter = NOTE_LETTERS[letter_index]
-        natural_semitone = NATURAL_SEMITONES[expected_letter]
-        diff = (target_semitone - natural_semitone + 12) % 12
+        semitone = SEMITONES[expected_letter]
+        diff = (target_semitone - semitone + 12) % 12
 
         # Determine accidental (possible to have bb and ##)
         if diff == 0:
