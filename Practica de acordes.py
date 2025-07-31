@@ -24,7 +24,7 @@ SEMITONES = {
 
 def spell_chord(root_letter, root_accidental, chord_type):
     intervals = CHORD_TYPES[chord_type]
-    root_semitone = (NATURAL_SEMITONES[root_letter] + accidental_to_semitone(root_accidental)) % 12
+    root_semitone = (SEMITONES[root_letter] + accidental_to_semitone(root_accidental)) % 12
     root_letter_index = NOTE_LETTERS.index(root_letter)
 
     spelled_notes = []
