@@ -103,7 +103,8 @@ if st.button("🎲 New Chord"):
 
 # Personal message
 st.divider()
-st.markdown("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. <br> With love ♥️🎵 <br> Jaime",unsafe_allow_html=True)
+st.markdown(Thanks for visiting 😀 I'm working on further updates including: <ul> <li>design upgrades</li> <li>more chord variations</li> <li>chord inversions</li><li>and more!</li> <br><br> With love ♥️🎵 <br> Jaime,
+            unsafe_allow_html=True)
 
 # Contact Info
 st.divider()
@@ -113,7 +114,7 @@ with col1:
     st.text("Contact:")
 
 with col2:
-    st.text("📧 jaaime35@gmail.com")
+    st.text("📧   jaaime35@gmail.com")
 
 with col3:
     st.page_link("https://www.linkedin.com/in/jaimevillalobos1603/",
