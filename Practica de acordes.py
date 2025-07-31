@@ -75,7 +75,6 @@ if "root_letter" not in st.session_state:
 
 # Show the chord name
 chord_name = st.session_state.root_letter + st.session_state.root_accidental + st.session_state.chord_type
-st.subheader("Chord")
 st.subheader(f"{chord_name}")
 
 # User input (still having issues to clear it after hitting the "new chord button")
@@ -104,5 +103,5 @@ if st.button("🎲 New Chord"):
 
 #Personal message
 st.divider()
-st.markdown("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. <br> With love ♥️ <br> Jaime",unsafe_allow_html=True)
+st.markdown("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. <br> With love ♥️🎵 <br> Jaime",unsafe_allow_html=True)
 
