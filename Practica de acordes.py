@@ -103,7 +103,7 @@ if st.button("🎲 New Chord"):
 
 # Personal message
 st.divider()
-st.markdown(Thanks for visiting 😀 I'm working on further updates including: <ul> <li>design upgrades</li> <li>more chord variations</li> <li>chord inversions</li><li>and more!</li> <br><br> With love ♥️🎵 <br> Jaime,
+st.markdown(Thanks for visiting 😀 I'm working on further updates including: <ul><li>design upgrades</li> <li>more chord variations</li> <li>chord inversions</li><li>and more!</li></ul><br><br> With love ♥️🎵 <br> Jaime,
             unsafe_allow_html=True)
 
 # Contact Info
