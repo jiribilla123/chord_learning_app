@@ -75,10 +75,11 @@ if "root_letter" not in st.session_state:
 
 # Show the chord name
 chord_name = st.session_state.root_letter + st.session_state.root_accidental + st.session_state.chord_type
-st.subheader(f"Chord: {chord_name}")
+st.subheader("Chord")
+st.subheader(f"{chord_name}")
 
 # User input (still having issues to clear it after hitting the "new chord button")
-user_input = st.text_input("Enter the notes separated by spaces (e.g. C Eb G):")
+user_input = st.text_input("Enter the notes in uppercase and separated by spaces (e.g. C Eb G):")
 user_notes = user_input.strip().split()
 
 # Check answer
@@ -100,3 +101,5 @@ if st.button("🎲 New Chord"):
         st.session_state.chord_type
     )
     st.rerun()
+st.text("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. Jaime")
+
