@@ -101,5 +101,8 @@ if st.button("🎲 New Chord"):
         st.session_state.chord_type
     )
     st.rerun()
-st.text("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. Jaime")
+
+#Personal message
+st.divider()
+st.markdown("Thanks for visiting 😀 I'm working on further updates including more chord variations, inversions and perhaps a better design. <br> With love ♥️ <br> Jaime",unsafe_allow_html=True)
 
